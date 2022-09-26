@@ -42,17 +42,13 @@
         create a conf file in conf.d in etc/nginx/conf.d
         
         put this code on it
-       server {
+   
+   
+    server {
         listen 80;
-    
         server_name steel;
-
         return 301 https://spms.steel-ships.com$request_uri;
     }
-
-
-
-
     server {
         listen        80;
         listen 443 ssl http2;
@@ -76,7 +72,9 @@
         autoindex on;
         alias /var/steel/web/static;
         }
-    } </p>
+    } 
+    
+    
 
     
     
