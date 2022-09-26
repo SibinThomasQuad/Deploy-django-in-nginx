@@ -11,6 +11,6 @@
     
     -> create a service for gunicorn
     
-    eg :   ```rb
+    eg :   ```sh
 # service.sh
 ```
