@@ -42,13 +42,13 @@
         create a conf file in conf.d in etc/nginx/conf.d
         
         put this code on it
-       <p>server {
-    listen 80;
+       server {
+        listen 80;
     
-    server_name steel;
+        server_name steel;
 
-    return 301 https://spms.steel-ships.com$request_uri;
-}
+        return 301 https://spms.steel-ships.com$request_uri;
+    }
 
 
 
