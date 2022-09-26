@@ -42,7 +42,7 @@
         create a conf file in conf.d in etc/nginx/conf.d
         
         put this code on it
-        server {
+       "" server {
     listen 80;
     
     server_name steel;
@@ -76,7 +76,7 @@
         autoindex on;
         alias /var/steel/web/static;
         }
-    }
+    } ""
 
     
     
